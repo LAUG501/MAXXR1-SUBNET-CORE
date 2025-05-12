@@ -3,9 +3,8 @@ MAXXR1: The Thinking Memory Machine - MAXXR1 is a next-generation NLP (Natural L
 
 [GENESIS START • LCARS-MAXX CORE SEQUENCE // PHASE 00]
 
-┌─────────────────────────────────────────────┐
-   PROJECT: LCARS-MAXX — REALITY LOGIC RESET   
-└─────────────────────────────────────────────┘
+[ PROJECT: LCARS-MAXX — REALITY LOGIC RESET ]
+
 
 [00 — CORE MANIFESTO]
 

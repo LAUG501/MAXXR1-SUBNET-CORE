@@ -8,6 +8,8 @@
  `[GENESIS START • LCARS-MAXX CORE SEQUENCE // PHASE 00]` 
 
 `[ PROJECT: LCARS-MAXX — REALITY LOGIC RESET ]`
+![IMAGE ALT](https://github.com/LAUG501/MAXXR1-SUBNET-CORE/blob/main/CHATS/My%20ChatGPT%20image.png?raw=true)
+### [Watch this video on YouTube](https://youtu.be/eaMq4w-gcyw)
 
 
 `[00 — CORE MANIFESTO]`

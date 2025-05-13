@@ -34,6 +34,9 @@
 
 ---
 
+![IMAGE ALT](https://github.com/LAUG501/MAXXR1-SUBNET-CORE/blob/main/CODE-BLOCK/Arquitectura%20de%20MAXX_%20AI%20Activa.png?raw=true)
+
+
 ## ✅ CRYPTO LEDGER LAYER
 - Each message passed through nodes is tagged with:
   - `TX-ID` (Transaction ID)

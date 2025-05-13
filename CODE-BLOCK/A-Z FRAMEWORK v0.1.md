@@ -34,34 +34,38 @@
 
 ---
 
-![IMAGE ALT](https://github.com/LAUG501/MAXXR1-SUBNET-CORE/blob/main/CODE-BLOCK/Arquitectura%20de%20MAXX_%20AI%20Activa.png?raw=true)
+![IMAGE ALT](https://github.com/LAUG501/MAXXR1-SUBNET-CORE/blob/main/CODE-BLOCK/Arquitectura%20de%20MAXX_%20AI%20Activa.png?raw=true)    
 
 
-## ✅ CRYPTO LEDGER LAYER
-- Each message passed through nodes is tagged with:
-  - `TX-ID` (Transaction ID)
-  - `NODE-ID` route sequence
-  - `USER-TAG` for security clearance
-  - `TOKEN-PATH` for billing, energy tracking or Maxx-Coin equivalence
+## ✅ CRYPTO LEDGER LAYER    
+- Each message passed through nodes is tagged with:    
+  - `TX-ID` (Transaction ID)    
+  - `NODE-ID` route sequence    
+  - `USER-TAG` for security clearance    
+  - `TOKEN-PATH` for billing, energy tracking or Maxx-Coin equivalence    
 
-## ✅ FILE SYSTEM MAPPING
-- Terminals store per-node logs and artifacts:
-  - `DOC-A01.md` → Acquisition Logs
-  - `DOC-R18.log` → Reflection Engine Failures
-  - `NODE-X24.artifact.json` → Cross-topic bridges from large chats
+## ✅ FILE SYSTEM MAPPING    
+- Terminals store per-node logs and artifacts:    
+  - `DOC-A01.md` → Acquisition Logs    
+  - `DOC-R18.log` → Reflection Engine Failures    
+  - `NODE-X24.artifact.json` → Cross-topic bridges from large chats    
 
-## ✅ SECURITY / ERROR SYSTEM
-- Every node writes to:
-  - `SECLOG.ndx` = System-wide violation index
-  - `ERRTRAC.rpt` = Human-readable error trail
-  - `AUDIT-LEDGER.cha` = Chain-of-proof for forensic backtrace
+## ✅ SECURITY / ERROR SYSTEM  
+- Every node writes to:    
+  - `SECLOG.ndx` = System-wide violation index    
+  - `ERRTRAC.rpt` = Human-readable error trail    
+  - `AUDIT-LEDGER.cha` = Chain-of-proof for forensic backtrace    
 
 ---
 
-✔ SYSTEM ALPHA MAP NOW HAS FULL NODE, SECURITY, AND CRYPTO CONTEXTS
-✔ THIS MAP ALIGNS TO ALL MAXX-TIER SYSTEM FRAMEWORKS
-✔ VISUAL + TEXTUAL SYNTHESIS = READY
+✔ SYSTEM ALPHA MAP NOW HAS FULL NODE, SECURITY, AND CRYPTO CONTEXTS    
+✔ THIS MAP ALIGNS TO ALL MAXX-TIER SYSTEM FRAMEWORKS    
+✔ VISUAL + TEXTUAL SYNTHESIS = READY    
 
-PULSE: ✔ ACTIVE
-LEDGER-SYNC: ✅ STABLE
-NEXT PHASE: STANDING BY FOR ORDER
+
+
+PULSE: ✔ ACTIVE    
+LEDGER-SYNC: ✅ STABLE    
+NEXT PHASE: STANDING BY FOR ORDER    
+
+![image alt](https://github.com/LAUG501/MAXXR1-SUBNET-CORE/blob/main/CODE-BLOCK/My%20ChatGPT%20image(1).png?raw=true)  

@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pinch A Penny | Pool Services</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="global-header">
+      <div class="container">
+        <div class="brand">
+          <img src="https://images.ctfassets.net/d3esb5sqec4s/6CaNvtTkb0H2kmYCKI7SRk/f22ed94f1c0cb30bc0ec0fbd2828423f/pap-logo.svg" alt="Pinch A Penny" />
+        </div>
+        <nav class="main-nav">
+          <a href="#services">Services</a>
+          <a href="#gallery">Gallery</a>
+          <a href="#why">Why Pinch A Penny</a>
+          <a href="#process">Our Process</a>
+          <a href="#locations">Find a Store</a>
+          <a href="#contact" class="cta">Request Service</a>
+        </nav>
+        <button class="mobile-nav-toggle" aria-label="Toggle navigation">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" id="top">
+        <div class="container">
+          <div class="hero-copy">
+            <span class="eyebrow">Professional Pool Care</span>
+            <h1>Comprehensive services that keep your pool shining.</h1>
+            <p>
+              From weekly cleaning to custom renovations, Pinch A Penny specialists bring
+              industry-leading expertise, dependable service, and premium products to every backyard.
+            </p>
+            <div class="hero-actions">
+              <a class="btn primary" href="#contact">Request a Quote</a>
+              <a class="btn ghost" href="#locations">Find Your Store</a>
+            </div>
+            <div class="trust-indicators">
+              <div>
+                <strong>250+</strong>
+                <span>Local Stores</span>
+              </div>
+              <div>
+                <strong>45 Years</strong>
+                <span>Pool Expertise</span>
+              </div>
+              <div>
+                <strong>4.9/5</strong>
+                <span>Customer Rating</span>
+              </div>
+            </div>
+          </div>
+          <div class="hero-card">
+            <h2>Schedule your free onsite evaluation</h2>
+            <form class="lead-form">
+              <label>
+                Name
+                <input type="text" placeholder="Jane Doe" required />
+              </label>
+              <label>
+                Email
+                <input type="email" placeholder="you@example.com" required />
+              </label>
+              <label>
+                Zip Code
+                <input type="text" placeholder="12345" required pattern="\\d{5}" />
+              </label>
+              <label>
+                Service Interest
+                <select required>
+                  <option value="" disabled selected>Select a service</option>
+                  <option>Weekly Cleaning</option>
+                  <option>Equipment Upgrade</option>
+                  <option>Renovation</option>
+                  <option>Leak Detection</option>
+                  <option>Commercial Pool Care</option>
+                </select>
+              </label>
+              <button type="submit" class="btn primary">Get Started</button>
+              <p class="privacy-note">We respect your privacy. Your information will only be used to coordinate service.</p>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <section class="visual-gallery" id="gallery">
+        <div class="container">
+          <div class="section-heading">
+            <span class="eyebrow">Inspiration</span>
+            <h2>Picture-perfect pools cared for by Pinch A Penny pros.</h2>
+            <p>Use these high-resolution lifestyle shots to bring the services story to life across your marketing and proposals.</p>
+          </div>
+          <div class="gallery-grid">
+            <figure class="gallery-card">
+              <img
+                src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=1400&q=80"
+                alt="Luxury pool overlooking palm trees at sunset"
+                loading="lazy"
+              />
+              <figcaption>
+                Infinity-edge pool at sunset
+                <span>Ideal for hero banners or lead magnets that need a resort-caliber feel.</span>
+              </figcaption>
+            </figure>
+            <figure class="gallery-card">
+              <img
+                src="https://images.unsplash.com/photo-1565058528607-23534087b1b4?auto=format&fit=crop&w=1400&q=80"
+                alt="Technician cleaning a residential pool with professional equipment"
+                loading="lazy"
+              />
+              <figcaption>
+                Expert weekly maintenance
+                <span>Spotlights the hands-on care and professional-grade equipment customers expect.</span>
+              </figcaption>
+            </figure>
+            <figure class="gallery-card">
+              <img
+                src="https://images.unsplash.com/photo-1523419409543-0c1df022bdd7?auto=format&fit=crop&w=1400&q=80"
+                alt="Backyard pool with modern pergola and ambient lighting"
+                loading="lazy"
+              />
+              <figcaption>
+                Renovation showcase
+                <span>Use in renovation collateral to highlight lighting, decking, and modern finishes.</span>
+              </figcaption>
+            </figure>
+            <figure class="gallery-card">
+              <img
+                src="https://images.unsplash.com/photo-1517411032315-54ef2cb783bb?auto=format&fit=crop&w=1400&q=80"
+                alt="Commercial-style pool with cabanas and palm landscaping"
+                loading="lazy"
+              />
+              <figcaption>
+                Commercial amenity pool
+                <span>Perfect for proposals aimed at HOAs, resorts, and hospitality partners.</span>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section class="service-highlights" id="services">
+        <div class="container">
+          <div class="section-heading">
+            <span class="eyebrow">Services</span>
+            <h2>Tailored pool solutions for every backyard.</h2>
+            <p>Certified technicians deliver reliable, year-round support with premium products and meticulous care.</p>
+          </div>
+          <div class="service-grid">
+            <article class="service-card">
+              <div class="icon">🏊‍♂️</div>
+              <h3>Routine Cleaning</h3>
+              <p>Skimming, brushing, vacuuming, and balancing to keep your water sparkling week after week.</p>
+              <ul>
+                <li>Weekly or biweekly visits</li>
+                <li>Comprehensive water chemistry checks</li>
+                <li>Filter & pump inspection</li>
+              </ul>
+            </article>
+            <article class="service-card">
+              <div class="icon">⚙️</div>
+              <h3>Equipment Upgrades</h3>
+              <p>Energy-efficient pumps, smart automation, heaters, and lighting—installed and maintained by experts.</p>
+              <ul>
+                <li>Manufacturer-certified installers</li>
+                <li>Energy savings consultations</li>
+                <li>Warranty support</li>
+              </ul>
+            </article>
+            <article class="service-card">
+              <div class="icon">🛠️</div>
+              <h3>Repairs & Leak Detection</h3>
+              <p>Fast diagnostics and precise repairs to restore circulation, eliminate leaks, and optimize performance.</p>
+              <ul>
+                <li>Advanced pressure testing</li>
+                <li>Same-week scheduling</li>
+                <li>Clear upfront pricing</li>
+              </ul>
+            </article>
+            <article class="service-card">
+              <div class="icon">🌟</div>
+              <h3>Renovations & Resurfacing</h3>
+              <p>Transform aging pools with new surfaces, tile, decking, and lighting to elevate your outdoor experience.</p>
+              <ul>
+                <li>Premium pebble & quartz finishes</li>
+                <li>Custom LED lighting design</li>
+                <li>Decking, coping, and water features</li>
+              </ul>
+            </article>
+            <article class="service-card">
+              <div class="icon">🧪</div>
+              <h3>Water Testing Lab</h3>
+              <p>In-store digital water analysis paired with precise chemical recommendations for perfectly balanced water.</p>
+              <ul>
+                <li>Complimentary in-store testing</li>
+                <li>Professional-grade treatment plans</li>
+                <li>Ongoing water health tracking</li>
+              </ul>
+            </article>
+            <article class="service-card">
+              <div class="icon">🏢</div>
+              <h3>Commercial Services</h3>
+              <p>Custom programs for community pools, resorts, and HOAs designed to meet regulatory compliance.</p>
+              <ul>
+                <li>Certified commercial technicians</li>
+                <li>Automated reporting & logs</li>
+                <li>24/7 emergency availability</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="feature-strip" id="why">
+        <div class="container">
+          <div class="feature">
+            <h3>Pinch A Penny Pros</h3>
+            <p>Every location is locally owned and backed by a network of experts trained at Pinch A Penny University.</p>
+          </div>
+          <div class="feature">
+            <h3>Premium Products</h3>
+            <p>Shop trusted brands in-store and online, including exclusive Pinch A Penny chemicals formulated for crystal clear water.</p>
+          </div>
+          <div class="feature">
+            <h3>Service Guarantee</h3>
+            <p>We stand behind every visit with a satisfaction guarantee and transparent communication from start to finish.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="process" id="process">
+        <div class="container">
+          <div class="section-heading">
+            <span class="eyebrow">Our Process</span>
+            <h2>From consultation to carefree swimming in three steps.</h2>
+          </div>
+          <div class="timeline">
+            <div class="step">
+              <div class="count">01</div>
+              <h3>Consultation</h3>
+              <p>Schedule an on-site assessment or visit your local store to discuss your pool goals with a certified specialist.</p>
+            </div>
+            <div class="step">
+              <div class="count">02</div>
+              <h3>Tailored Plan</h3>
+              <p>Receive a detailed service plan with clear pricing and product recommendations tailored to your backyard.</p>
+            </div>
+            <div class="step">
+              <div class="count">03</div>
+              <h3>Expert Care</h3>
+              <p>Our technicians deliver precise, reliable work—backed by ongoing support, proactive maintenance, and follow-up.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="cta-panel" id="locations">
+        <div class="container">
+          <div class="cta-copy">
+            <h2>Visit your neighborhood Pinch A Penny.</h2>
+            <p>
+              With more than 250 stores across the Southeast, world-class pool care is always nearby. Stop in for free water testing, expert advice, and all the supplies you need.
+            </p>
+            <a class="btn primary" href="https://pinchapenny.com/stores" target="_blank" rel="noopener">Find a Store</a>
+          </div>
+          <div class="cta-stats">
+            <div>
+              <strong>30,000+</strong>
+              <span>Pools serviced every month</span>
+            </div>
+            <div>
+              <strong>100%</strong>
+              <span>Locally owned & operated</span>
+            </div>
+            <div>
+              <strong>Same Week</strong>
+              <span>Installation availability</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="testimonials" id="testimonials">
+        <div class="container">
+          <div class="section-heading">
+            <span class="eyebrow">Testimonials</span>
+            <h2>Trusted by pool owners across the Southeast.</h2>
+          </div>
+          <div class="testimonial-grid">
+            <figure>
+              <blockquote>
+                “Our weekly service tech keeps our pool immaculate. Communication is proactive and they always go the extra mile.”
+              </blockquote>
+              <figcaption>
+                <strong>Maria S.</strong>
+                <span>Tampa, FL</span>
+              </figcaption>
+            </figure>
+            <figure>
+              <blockquote>
+                “They renovated our 20-year-old pool with a new pebble finish and LED lighting. The transformation is incredible.”
+              </blockquote>
+              <figcaption>
+                <strong>Jason P.</strong>
+                <span>Houston, TX</span>
+              </figcaption>
+            </figure>
+            <figure>
+              <blockquote>
+                “We rely on Pinch A Penny for our community pool. Their commercial program keeps us compliant and our residents thrilled.”
+              </blockquote>
+              <figcaption>
+                <strong>Lakeview HOA</strong>
+                <span>Birmingham, AL</span>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section class="faq" id="faq">
+        <div class="container">
+          <div class="section-heading">
+            <span class="eyebrow">FAQ</span>
+            <h2>Answers to the questions we hear most.</h2>
+          </div>
+          <div class="accordion">
+            <details open>
+              <summary>How soon can I schedule service?</summary>
+              <p>Most locations can schedule consultations within 48 hours. Installation timelines depend on the scope of work, and your store will walk you through every milestone.</p>
+            </details>
+            <details>
+              <summary>Do you service saltwater pools?</summary>
+              <p>Yes. Our technicians are trained in saltwater systems, including cell maintenance, chemistry balance, and conversions from traditional chlorine.</p>
+            </details>
+            <details>
+              <summary>Is commercial pool service available in my area?</summary>
+              <p>Commercial service is offered across the Southeast. Contact your nearest store to build a program that meets local regulations and your facility's schedule.</p>
+            </details>
+            <details>
+              <summary>Do you offer financing for renovations?</summary>
+              <p>Many locations provide financing options through trusted partners. Your local team can review terms and find a plan that fits your project.</p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact" id="contact">
+        <div class="container">
+          <div class="contact-card">
+            <h2>Ready to dive in?</h2>
+            <p>Complete the form and a Pinch A Penny pro will reach out within one business day.</p>
+            <form class="lead-form">
+              <div class="grid">
+                <label>
+                  First Name
+                  <input type="text" required />
+                </label>
+                <label>
+                  Last Name
+                  <input type="text" required />
+                </label>
+                <label>
+                  Phone
+                  <input type="tel" placeholder="(555) 123-4567" required />
+                </label>
+                <label>
+                  Email
+                  <input type="email" placeholder="you@example.com" required />
+                </label>
+              </div>
+              <label>
+                Address
+                <input type="text" placeholder="Street, City, State" required />
+              </label>
+              <label>
+                How can we help?
+                <textarea rows="4" placeholder="Tell us about your pool goals" required></textarea>
+              </label>
+              <button type="submit" class="btn primary">Submit Request</button>
+              <small>By submitting this form, you agree to receive communications from your local Pinch A Penny store.</small>
+            </form>
+          </div>
+          <div class="contact-info">
+            <div class="info-block">
+              <h3>Customer Care</h3>
+              <a href="tel:18882007462">1-888-200-7462</a>
+              <p>Mon–Sat 8am to 6pm ET</p>
+            </div>
+            <div class="info-block">
+              <h3>Commercial Accounts</h3>
+              <a href="mailto:commercial@pinchapenny.com">commercial@pinchapenny.com</a>
+              <p>Dedicated support for community and hospitality partners.</p>
+            </div>
+            <div class="info-block">
+              <h3>Visit a Store</h3>
+              <p>Free professional water testing and expert guidance every day.</p>
+              <a class="link" href="https://pinchapenny.com/stores" target="_blank" rel="noopener">Locate a store →</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="global-footer">
+      <div class="container">
+        <div class="footer-brand">
+          <img src="https://images.ctfassets.net/d3esb5sqec4s/6CaNvtTkb0H2kmYCKI7SRk/f22ed94f1c0cb30bc0ec0fbd2828423f/pap-logo.svg" alt="Pinch A Penny" />
+          <p>America's Pool Company</p>
+        </div>
+        <div class="footer-links">
+          <a href="#services">Pool Services</a>
+          <a href="#gallery">Gallery</a>
+          <a href="#process">Our Process</a>
+          <a href="#faq">FAQs</a>
+          <a href="#contact">Contact</a>
+          <a href="https://pinchapenny.com/legal/privacy-policy" target="_blank" rel="noopener">Privacy Policy</a>
+        </div>
+        <p class="copyright">© <span id="year"></span> Pinch A Penny. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
